@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+margin: 40px 10px;
+
+}
+#main{
+    background-color:rgb(241, 238, 238);
+    border-radius: 5px;
+line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 20px;
+}
+header{
+   
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  
+}
+#title{
+    margin: 10px 0;
+font-size: 2rem;
+    padding: 10px ;
+    width: 100%;
+}
+header p{
+    font-size: medium;
+    margin: 10px 0;
+}
+#img-div{
+    background-color: #fff;
+ width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+ text-align: center;
+ align-items: center;
+}
+#image{
+    max-width: 100%;
+    width: 1000px;
+    height: auto;
+}
+#img-caption{
+   
+    padding: 20px ;
+}
+#tribute-info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   max-width: 600px;
+   margin: 30px 0;
+   color: rgb(46, 42, 42);
+}
+#tribute-info h2{
+    color: black;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+#tribute-info b{
+    color: black;
+}
+#tribute-info ul{
+ text-align: justify;
+    padding: 30px ;
+}
+#tribute-info ul li{
+    
+    padding: 10px 0;
+}
+#quote{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-style: oblique;
+  letter-spacing: normal;
+  
+}
+#quote p{
+    padding: 10px 0;
+}
+#link{
+    font-size:1.3rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+#tribute-link{
+    color:rgb(14, 92, 122) ;
+}
+@media(max-width:500px){
+    body{
+margin: 10px 0;
+    }
+    #main{
+        padding: 10px;
+    }
+    header{
+        padding: 0;
+    }
+    #title{
+        padding: 0;
+    }
+}
