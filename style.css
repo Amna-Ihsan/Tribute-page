@@ -8,7 +8,8 @@ margin: 40px 10px;
 
 }
 #main{
-    background-color:rgb(241, 238, 238);
+    background-color:rgb(177, 164, 164);
+    
     border-radius: 5px;
 line-height: 30px;
     display: flex;
@@ -35,18 +36,20 @@ header p{
     margin: 10px 0;
 }
 #img-div{
-    background-color: #fff;
+  
  width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
  text-align: center;
  align-items: center;
+ padding: 20px 0;
 }
 #image{
     max-width: 100%;
     width: 1000px;
     height: auto;
+    border-radius: 10px;
 }
 #img-caption{
    
